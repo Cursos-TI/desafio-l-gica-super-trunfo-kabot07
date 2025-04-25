@@ -353,17 +353,18 @@ int main () {
         
         //EXIBIR GANHADOR RODADA FINAL
         if (somacarta1 > somacarta2) {
-            printf("      *-*-*-*-*-* CARTA 1 VENCEU *-*-*-*-*-*  \n");
+            printf("      *-*-*-*-*-* CARTA %d VENCEU *-*-*-*-*-*  \n", codigocarta);
                         
         } else if (somacarta2 > somacarta1) {
-            printf("     *-*-*-*-*-* CARTA 2 VENCEU *-*-*-*-*-* \n");
+            printf("     *-*-*-*-*-* CARTA %d VENCEU *-*-*-*-*-* \n", codigocarta2);
             
        
         } else {
             printf("          ###### EMPATOU ###### !\n");
         }
     
-             
+          
+    
 
 //Karol Botelho
 return 0;
